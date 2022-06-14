@@ -1,4 +1,3 @@
-<script>
 // Home Hero Slider
 $(document).ready(function () {
       var slider_wrapper = new Swiper(".slider-wrapper-hero", {
@@ -62,9 +61,6 @@ $(document).ready(function () {
       });
     });
 
-</script>
-
-<script>
 // Team Slider 1
 $(document).ready(function () {
       var slider_wrapper = new Swiper(".slider-wrapper-1", {
@@ -128,9 +124,6 @@ $(document).ready(function () {
       });
     });
 
-</script>
-
-<script>
 // Team Slider 2
 $(document).ready(function () {
       var slider_wrapper = new Swiper(".slider-wrapper-2", {
@@ -194,9 +187,6 @@ $(document).ready(function () {
       });
     });
 
-</script>
-
-<script>
 // Team Slider 3
 $(document).ready(function () {
       var slider_wrapper = new Swiper(".slider-wrapper-3", {
@@ -259,5 +249,3 @@ $(document).ready(function () {
         },
       });
     });
-
-</script>
