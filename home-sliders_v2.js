@@ -13,9 +13,14 @@ $(document).ready(function () {
     clickable: true,
 
       },
-  autoplay: false,
+  autoplay: {
+          delay: 5000,
+    disableOnInteraction: true,
+
+      },
+  speed: 4000,
   slidesPerView: 'auto',
-  loop: false,
+  loop: true,
 
         on: {
           init: function () {
